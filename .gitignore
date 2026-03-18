@@ -1,0 +1,14 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de contexto pessoal (não versionar)
+contexts/meu-contexto.md
+contexts/brand-voice.md
+contexts/about-me.md
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
