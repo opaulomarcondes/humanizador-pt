@@ -1,4 +1,16 @@
-# Humanizador PT — Skill para Claude Code
+---
+name: Humanizador PT
+description: Detecta e elimina 24 padrões de escrita artificial em português brasileiro, humanizando textos gerados por IA em três passagens
+version: 1.0.0
+author: Paulo Marcondes
+tags:
+  - text-editing
+  - portuguese
+  - humanization
+  - ai-detection
+---
+
+# Humanizador PT — Skill para Claude
 
 ## Quando usar esta skill
 
