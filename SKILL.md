@@ -1,5 +1,5 @@
 ---
-name: Humanizador PT
+name: humanizador-pt
 description: Detecta e elimina padrões de escrita artificial em português brasileiro
 ---
 
