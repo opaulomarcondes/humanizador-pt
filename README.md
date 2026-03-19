@@ -16,6 +16,15 @@ O repositório inclui também um sistema de contexto de voz — um arquivo `CONT
 
 ## Instalação
 
+### No app do Claude (chat mode)
+
+1. Acesse **Personalizar → Habilidades → +**
+2. Selecione a opção **Copiar um arquivo ZIP**
+3. Faça download do arquivo `humanizador-pt.skill` [deste repositório](https://github.com/opaulomarcondes/humanizador-pt/releases)
+4. Cole o arquivo no campo solicitado
+
+### Via Claude Code
+
 ```bash
 git clone https://github.com/opaulomarcondes/humanizador-pt ~/.claude/skills/humanizador-pt
 ```
