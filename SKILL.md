@@ -19,6 +19,26 @@ O português brasileiro tem seus próprios marcadores de IA, distintos dos do in
 
 ---
 
+## REGRA CRÍTICA — Travessões longos
+
+Antes de qualquer outra coisa: **ELIMINE TODOS OS TRAVESSÕES LONGOS (—)** do texto. Esta é a marca mais óbvia de texto gerado por IA em português. Nenhum travessão longo deve permanecer no resultado final.
+
+Para cada travessão encontrado:
+- Substitua por **uma vírgula** se for trecho incidental: `texto, trecho, resto` 
+- Use **parênteses** se for comentário deslocado: `texto (trecho) resto`
+- **Reestruture a frase** se o trecho for redundante: elimine o trecho todo
+- **Divida em duas frases** se não há relação clara
+
+Exemplos:
+- ❌ "O documento é claro — como você vê — e bem escrito."
+- ✅ "O documento é claro, como você vê, e bem escrito." OU "O documento é claro e bem escrito."
+- ❌ "A análise mostra — conforme dados — que o mercado cresce."
+- ✅ "A análise mostra, conforme dados, que o mercado cresce." OU "A análise mostra que o mercado cresce."
+
+Esta regra tem prioridade sobre todas as outras. Execute-a na Passagem 1 com máxima agressividade.
+
+---
+
 ## Os 24 padrões a eliminar
 
 ### Padrões de abertura e encerramento
@@ -86,9 +106,6 @@ Fragmentar raciocínio em bullets pode mascarar a ausência de análise. Se os i
 **17. Cabeçalhos para cada parágrafo.**
 Cabeçalhos organizam seções, não frases. Quando cada parágrafo tem seu próprio título, o texto perdeu coesão interna. Elimine cabeçalhos redundantes e garanta que o desenvolvimento textual crie a estrutura por conta própria.
 
-**18. Travessão longo (em dash) em excesso.**
-O travessão longo — este aqui — tem usos legítimos, mas o modelo de IA tende a inseri-lo onde vírgulas, parênteses ou reestruturação da frase seriam mais adequados. Substitua por vírgulas quando o trecho é explicativo, por parênteses quando é incidental, ou reestruture a frase para eliminar a necessidade.
-
 **19. Emojis em textos formais ou semiformais.**
 Emojis podem ser adequados em comunicações casuais e em redes sociais de tom descontraído. Em documentos técnicos, profissionais ou institucionais, eliminá-los.
 
@@ -115,14 +132,14 @@ O texto descreve fatos ou conceitos sem oferecer perspectiva crítica, relação
 
 ## Abordagem de três passagens
 
-### Passagem 1 — Humanização pelos 24 padrões
-Percorra o texto identificando e corrigindo cada um dos 24 padrões listados. Preserve o conteúdo e a intenção originais. Não adicione informação nova.
+### Passagem 1 — Humanização pelos 24 padrões + REGRA CRÍTICA
+Comece eliminando todos os travessões longos do texto (regra crítica — prioridade máxima). Em seguida, percorra o texto identificando e corrigindo cada um dos 24 padrões listados. Preserve o conteúdo e a intenção originais. Não adicione informação nova.
 
 ### Passagem 2 — Auditoria de "obviamente IA"
-Leia o texto reescrito como se fosse a primeira vez. Pergunte: "Este trecho ainda soa como IA?" Identifique o que permanece artificial — ritmo, vocabulário, estrutura, tom — mesmo após a primeira passagem.
+Leia o texto reescrito como se fosse a primeira vez. Pergunte: "Este trecho ainda soa como IA?" Identifique o que permanece artificial — ritmo, vocabulário, estrutura, tom — mesmo após a primeira passagem. Procure especificamente por travessões que possam ter passado despercebidos.
 
 ### Passagem 3 — Reescrita das instâncias remanescentes
-Corrija o que a auditoria da Passagem 2 identificou. O objetivo é um texto que nenhum leitor razoável identificaria como gerado automaticamente.
+Corrija o que a auditoria da Passagem 2 identificou. O objetivo é um texto que nenhum leitor razoável identificaria como gerado automaticamente. Faça uma última verificação: existem travessões longos ainda? Se sim, elimine-os.
 
 ---
 
